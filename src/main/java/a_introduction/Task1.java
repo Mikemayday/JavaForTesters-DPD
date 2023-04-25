@@ -5,7 +5,7 @@ public class Task1 {
         int a = 10;
         char b = 'd';
         double c = 40d;
-        long d = 235432453;
+        long d = 235432453456456L;
         boolean e = false;
         System.out.println(a);
         System.out.println(b);
