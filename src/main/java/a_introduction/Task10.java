@@ -6,6 +6,8 @@ public class Task10 {
     }
 
     public static String bookDetails(String title, String author, String illustrator) {
-        return "";
+        String fulldetails = (title + ", autorstwa " + author + " ilustrowany przez " + illustrator);
+        return fulldetails;
+
     }
 }

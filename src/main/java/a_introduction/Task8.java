@@ -1,18 +1,16 @@
 package a_introduction;
 
-import java.time.Year;
-
 public class Task8 {
 
     public static void main(String[] args) {
-        double price = calculatePrice(200, 0.2);
-        System.out.println(price);
+        double finalprice = calculatePrice(16, 0.23);
+        System.out.println(finalprice);
     }
 
 
         public static double calculatePrice(int price, double discount) {
-
-            return 0;
+        double finalprice = price*discount;
+        return finalprice;
 
         }
     }

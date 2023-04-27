@@ -5,8 +5,7 @@ public class Task5 {
         String imie = "Michał";
         int wiek = 15;
         String pelnoletni = "";
-
-        if (wiek < 18)            pelnoletni = "nie";
+        if (wiek < 18) pelnoletni = "nie";
 
        System.out.println(imie + ", ma " + wiek + " lat i " + pelnoletni + " jest pełnoletni");
     }
